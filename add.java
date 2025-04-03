@@ -14,10 +14,11 @@ public class Addition {
 
         // Calculate the sum
         double sum = num1 + num2;
+	double sub = num1 - num2;
 
         // Display the result
         System.out.println("The sum is: " + sum);
-
+        System.out.println("The sub is: " + sub);
         // Close the scanner
         scanner.close();
     }
